@@ -12,7 +12,8 @@ int main(void)
 	for (ch = 0; ch <= 10; ch++)
 	{
 		putchar(ch);
-		ch != 9 ? puchar(", ") : '';
+		if (ch != 9)
+			puchar(", ");
 	}
 	putchar('\n');
 	return (0);
