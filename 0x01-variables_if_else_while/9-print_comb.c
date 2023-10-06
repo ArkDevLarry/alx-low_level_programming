@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line
+ * main - prints all possible combinations of single-digit numbers
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,7 +11,7 @@ int main(void)
 	for (ch = 0; ch <= 10; ch++)
 	{
 		putchar(ch);
-		if (ch != 9) 
+		if (ch != 9)
 		{
 			putchar(',');
 			putchar(' ');
