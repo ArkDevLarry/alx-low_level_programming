@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(ch);
 		if (ch != 9)
-			puchar(", ");
+			putchar(", ");
 	}
 	putchar('\n');
 	return (0);
