@@ -14,11 +14,11 @@ int main (void) {
 			{
 				for (dg4 = 1; dg4 <=9; dg4++)
 				{
-					putchar(dg1);
-					putchar(dg2);
+					putchar((dg1 % 10) + '0');
+					putchar((dg2 % 10) + '0');
 					putchar(' ');
-					putchar(dg3);
-					putchar(dg4);
+					putchar((dg3 % 10) + '0');
+					putchar((dg4 % 10) + '0');
 
 					if (dg1 == 9 && dg2 == 8 && dg3 == 9 && dg4 ==9)
 						continue;
