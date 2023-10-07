@@ -23,7 +23,7 @@ int main (void) {
 					if (dg1 == 9 && dg2 == 8 && dg3 == 9 && dg4 ==9)
 						continue;
 					putchar(',');
-					puthcar(' ');
+					putchar(' ');
 				}
 			}
 		}
