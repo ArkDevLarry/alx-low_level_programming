@@ -12,9 +12,11 @@ int main(void)
 	{
 		putchar((ch % 10));
 		if (ch == 9)
+		{
 			continue;
-			putchar(',');
-			putchar(' ');
+		}
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
