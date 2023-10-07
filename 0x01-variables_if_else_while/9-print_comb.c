@@ -10,11 +10,11 @@ int main(void)
 
 	for (ch = 0; ch <= 10; ch++)
 	{
-		putchar((ch % 10) + '0');
+		putchar((ch % 10));
 		if (ch == 9)
 			continue;
-		putchar(',');
-		putchar(' ');
+			putchar(',');
+			putchar(' ');
 	}
 	putchar('\n');
 	return (0);
