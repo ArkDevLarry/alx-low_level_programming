@@ -4,7 +4,7 @@
  * _mul - multiplies 2 digit
  * Print: Product of the 2 digits
  */
-int mul(int num1, int num2)
+int mul(int a, int b)
 {
-	return (num1 * num2);
+	return (a * b);
 }
