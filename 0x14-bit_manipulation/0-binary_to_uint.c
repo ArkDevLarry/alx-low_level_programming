@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /*
 * * Convert binary to unsigned integer
 */
